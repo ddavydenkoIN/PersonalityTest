@@ -1,27 +1,42 @@
 # PersonalityTest
+##Link:
+https://ddavydenkoin.github.io/PersonalityTest/
+##Task:
+- Landing screen
+- Start personality test
+- Dynamic screen, that reads question and answers from a the backend (Just mock the backend)
+- Finish screen, where you can see your personality trait.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+##Libraries
 
-## Development server
+- *@ngrx/store, @ngrx/effects* - Data/state management library.
+- *@angular/material* - Components library.
+- *Jest* - testing library.
+- *angular-in-memory-web-api* - Rest calls emulation library. <br>Some rest calls are not optimized, due to limited library capabilities.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##Features Explained:
+- **General**
+  - 2 seconds delay for every request.
+  - Add spinners to components, which has not retrieved async data.
+  - UI is adjusted for any screen sizes.
+  - Used Dart SASS and latest ***@use*** syntax for more reliable styles importing.
 
-## Code scaffolding
+- **Landing screen**
+  - Random footer, header to fill up some space.
+  - List of tests is retrieved from the DB.
+  - 1 test mocked currently. 
+  - Only partial data for tests is retrieved, in order not to reduce init time.
+- **Test Page**
+  - Lazy loaded
+  - Data is retrieved for the whole test on 1 step. (except answers)
+  - MatTabs are used to switch between steps.
+  - Form is build dynamically from DB config. (Added Only dropdowns, could be extended to support different input types.)
+  - After form is filled, answers are being retrieved and compared to user selections.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##What could be added:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Localization with ngx-translate.
+- Test coverage.
+- Better UI/UI.
+- Radio group instead of Select inputs for Test form.
+- More tests in the list.
