@@ -1,0 +1,7 @@
+<div class="thumbnails">
+  <app-test-thumbnail class="thumbnails__item"
+                      *ngFor="let test of tests"
+                      [test]="test"
+                      (onThumbnailClicked)="thumbnailClicked($event)">
+  </app-test-thumbnail>
+</div>

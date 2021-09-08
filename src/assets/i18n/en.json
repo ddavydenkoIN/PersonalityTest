@@ -1,0 +1,9 @@
+{
+  "HOME": {
+    "TITLE": "Angular8-gallery",
+    "SUBTITLE": "Built on the CSS-grid basis"
+  },
+  "NOT_FOUND": {
+    "MESSAGE": "Sorry. Page does not exist."
+  }
+}
