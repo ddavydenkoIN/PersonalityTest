@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{FZ0w:function(n,o,t){"use strict";t.r(o),t.d(o,"NotFoundModule",function(){return c});var e=t("ofXK"),r=t("sYmb"),u=t("fXoL");let c=(()=>{class n{}return n.\u0275fac=function(o){return new(o||n)},n.\u0275mod=u.Pb({type:n}),n.\u0275inj=u.Ob({imports:[[e.c,r.b]]}),n})()}}]);
