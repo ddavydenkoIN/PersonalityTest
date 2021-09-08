@@ -1,20 +1,24 @@
 # PersonalityTest
-##Link:
+
+<h2>Link:</h2>
 https://ddavydenkoin.github.io/PersonalityTest/
-##Task:
+
+<h2>Task:</h2>
+
 - Landing screen
 - Start personality test
 - Dynamic screen, that reads question and answers from a the backend (Just mock the backend)
 - Finish screen, where you can see your personality trait.
 
-##Libraries
+<h2>Libraries</h2>
 
 - *@ngrx/store, @ngrx/effects* - Data/state management library.
 - *@angular/material* - Components library.
 - *Jest* - testing library.
 - *angular-in-memory-web-api* - Rest calls emulation library. <br>Some rest calls are not optimized, due to limited library capabilities.
 
-##Features Explained:
+<h2>Features Explained:</h2>
+
 - **General**
   - 2 seconds delay for every request.
   - Add spinners to components, which has not retrieved async data.
@@ -33,7 +37,7 @@ https://ddavydenkoin.github.io/PersonalityTest/
   - Form is build dynamically from DB config. (Added Only dropdowns, could be extended to support different input types.)
   - After form is filled, answers are being retrieved and compared to user selections.
 
-##What could be added:
+<h2>What could be added:</h2>
 
 - Localization with ngx-translate.
 - Test coverage.
