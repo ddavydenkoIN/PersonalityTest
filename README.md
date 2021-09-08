@@ -29,7 +29,7 @@ https://ddavydenkoin.github.io/PersonalityTest/
   - Random footer, header to fill up some space.
   - List of tests is retrieved from the DB.
   - 1 test mocked currently. 
-  - Only partial data for tests is retrieved, in order not to reduce init time.
+  - Only partial data for tests is retrieved, in order to reduce init time.
 - **Test Page**
   - Lazy loaded
   - Data is retrieved for the whole test on 1 step. (except answers)
